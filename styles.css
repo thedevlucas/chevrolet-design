@@ -39,6 +39,7 @@ header li {
 
 header a {
     color: white;
+    transition: all .2s;
 }
 
 header img {
@@ -95,6 +96,11 @@ header img {
     padding: 20px 30px;
     position: absolute;
     transform: translateY(-150%);
+    transition: all .2s;
+}
+
+.btn:hover {
+    font-size: 18px;
 }
 
 .color {
