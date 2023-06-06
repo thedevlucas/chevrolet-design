@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300&family=Roboto:wght@300;400;500;700;900&family=Teko:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    
+}
+
+
+body {
+    background: #282a36;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    float: right;
+    margin-left: auto;
+    transform: translateX(-170%);
+    margin-top: 2%;
+}
+
+header i {
+    margin-top: 3.1%;
+    margin-left: 6%;
+    font-size: 20px;
+}
+
+header li {
+    list-style: none;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+
+header a {
+    color: white;
+}
+
+header img {
+    height: 40pt;
+    margin-top: -9pt;
+}
+
+.car {
+    height: 350pt;
+    margin-left: 40%;
+    margin-top: 5%;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+.car2 {
+    height: 350pt;
+    margin-left: 40%;
+    margin-top: 5%;
+    transform: scaleX(-1) scaleY(-1);
+    margin-top: 20%;
+    opacity: 0.4;
+    z-index: -2;
+    filter: blur(50px);
+    position: absolute;
+}
+
+.sc1 {
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.sc1 h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 250px;
+}
+
+.sc1 h2 {
+    transform: translateY(-80%);
+    font-weight: 150;
+    font-size: 100px;
+    margin-bottom: 3%;
+}
+
+.sc1 h3 {
+    transform: translateY(-150%);
+    max-width: 42%;
+}
+
+.sc1 .btn {
+    background-color: #282a36;
+    padding: 20px 30px;
+    position: absolute;
+    transform: translateY(-150%);
+}
+
+.color {
+    position: absolute;
+    background: #fc981c;
+    width: 100%;
+    height: 150%;
+    transform: rotate(-65deg);
+    z-index: -2;
+    margin-left: -33%;
+    margin-top: -20%;
+}
