@@ -39,7 +39,6 @@ header li {
 
 header a {
     color: white;
-    transition: all .2s;
 }
 
 header img {
@@ -55,22 +54,11 @@ header img {
     position: absolute;
 }
 
-.car2 {
-    height: 350pt;
-    margin-left: 40%;
-    margin-top: 5%;
-    transform: scaleX(-1) scaleY(-1);
-    margin-top: 20%;
-    opacity: 0.4;
-    z-index: -2;
-    filter: blur(50px);
-    position: absolute;
-}
-
 .sc1 {
     margin-top: 5%;
     position: absolute;
     margin-left: 5%;
+    bottom: 0;
 }
 
 .sc1 h1 {
@@ -96,20 +84,15 @@ header img {
     padding: 20px 30px;
     position: absolute;
     transform: translateY(-150%);
-    transition: all .2s;
-}
-
-.btn:hover {
-    font-size: 18px;
 }
 
 .color {
     position: absolute;
-    background: #fc981c;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 150%;
-    transform: rotate(-65deg);
+    height: 100%;
+    background: #fc981c;
+    clip-path: polygon(0 0, 76% 0, 43% 100%, 0% 100%);
     z-index: -2;
-    margin-left: -33%;
-    margin-top: -20%;
 }
